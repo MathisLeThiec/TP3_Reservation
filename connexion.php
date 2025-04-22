@@ -1,6 +1,6 @@
 <?php
 require 'config.php';
-session_start(); // Assure-toi que la session est démarrée
+// session_start(); // Assure-toi que la session est démarrée
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = $_POST['email'];
     $password = $_POST['password'];
